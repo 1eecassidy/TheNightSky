@@ -81,12 +81,7 @@ const steps = [
         id: "selectServices",
         options: [
             { value: "Home", label: "Home", trigger: "selectedService" },
-            { value: "Aerospace Class", label: "Aerospace Class", trigger: "selectedService" },
-            {
-                value: "Bio Class",
-                label: "Bio Class",
-                trigger: "selectedService",
-            },
+            { value: "Explore", label: "Explore", trigger: "selectedService" },
             { value: "goBack", label: "go back", trigger: "options" },
         ],
     },
@@ -124,11 +119,8 @@ function Chatbot() {
             case "Home":
                 history.push("/");
                 break;
-            case "Aerospace Class":
-                history.push("/aeroClass");
-                break;
-            case "Bio Class":
-                history.push("/bioClass");
+            case "Explore":
+                history.push("/explore");
                 break;
             default:
                 break;
@@ -148,11 +140,11 @@ function Chatbot() {
                     handleEnd={handleEnd}
                     opened={opened}
                     headerTitle="Space bot"
-                    botAvatar="https://cdn.dribbble.com/users/279657/screenshots/2701628/chatbot.png"
+                    botAvatar="https://www.seekpng.com/png/detail/11-119845_astronaut-icon-png-clip-art-astronaut-helmet.png"
                     avatarStyle={{ borderRadius: "100%" }}
                     floating={true}
                     floatingIcon={
-                        <img src="https://cdn.dribbble.com/users/279657/screenshots/2701628/chatbot.png" style={{ width: "70%" }} alt="chatBot icon" />
+                        <img src="https://www.seekpng.com/png/detail/11-119845_astronaut-icon-png-clip-art-astronaut-helmet.png" style={{ width: "70%" }} alt="chatBot icon" />
                     }
                     floatingStyle={{
                         backgroundColor: "#ffffff",

@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom"
 import MercuryImg from "../assets/planets/Mercury.svg"
+import VenusImg from "../assets/planets/Venus.svg"
+import EarthImg from "../assets/planets/Earth.svg"
+import MarsImg from "../assets/planets/Mars.svg"
+import JupiterImg from "../assets/planets/Jupiter.svg"
+import SaturnImg from "../assets/planets/Saturn.svg"
+import UranusImg from "../assets/planets/Uranus.svg"
+import NeptuneImg from "../assets/planets/Neptune.svg"
+import MoonLanding from "../assets/explore/moonlanding.png"
+import MarsRoverImg from "../assets/explore/marsrover.png"
 
 export default function Explore() {
     return (
@@ -14,70 +23,70 @@ export default function Explore() {
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
                                 <img className="pb-8 h-full" alt="" src={MercuryImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Mercury</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/venus'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 h-full" alt="" src={VenusImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Venus</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/earth'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 h-56" alt="" src={EarthImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Earth</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/mars'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 w-72" alt="" src={MarsImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Mars</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/jupiter'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 w-36" alt="" src={JupiterImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Jupiter</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/saturn'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 h-full" alt="" src={SaturnImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Saturn</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/uranus'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 w-56" alt="" src={UranusImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Uranus</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/neptune'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 w-48" alt="" src={NeptuneImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Neptune</div>
                         </div>
                     </Link>
 
@@ -96,18 +105,18 @@ export default function Explore() {
                     <Link to='/mercury'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 w-88" alt="" src={MoonLanding} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Moon Landing</div>
                         </div>
                     </Link>
 
                     <Link to='/mercury'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
-                                <img className="pb-8 h-full" alt="" src={MercuryImg} />
+                                <img className="pb-8 w-full" alt="" src={MarsRoverImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards font-sourceSerifPro">Mercury</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Mars Rover</div>
                         </div>
                     </Link>
 

@@ -1,4 +1,4 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuAlt3Icon, XIcon } from '@heroicons/react/outline'
@@ -28,8 +28,6 @@ export default function Navbar({ handleLogout }) {
                   <Link to='/' className="px-3 py-2 mx-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Home</Link>
 
                   <Link to='/explore' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Explore</Link>
-
-                  <Link to='/chatroom' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Chat</Link>
 
                   <div className='pl-2 mt-1 cursor-pointer nav-links' onClick={handleLogout}>
                     <img src={LogoutIcon} height="40" width="40" className="text-white " alt="logout" aria-hidden="true" />
@@ -81,8 +79,6 @@ export default function Navbar({ handleLogout }) {
                       <Link to='/' className="px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Home</Link>
 
                       <Link to='/explore' className="px-3 py-2 text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Explore</Link>
-
-                      <Link to='/chatroom' className="px-3 py-2 font-serif text-xl font-medium text-gray-300 no-underline rounded-md font-sourceSerifPro hover:bg-gray-700 hover:text-white">Chat</Link>
 
                     </div>
 

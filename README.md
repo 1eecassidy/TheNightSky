@@ -1,18 +1,25 @@
-# TheNightSky
-
 # The Night Sky
+## Harshal Raikwar | Nicholas Sidharta | Cassidy Lee | Amogh Sarangdhar
 
 ## Live demo
 
-The site is deployed through Vercel, which you can view from [here]()
+The site is deployed through Vercel, which you can view from [here](https://the-night-sky.vercel.app/)
 
 ## Demo video
 
 CLick [here]() to view the demo.
 
 ## 💡 Inspiration
-
+- Lack of interactive and engaging methods to learn about space exploration
+- No good visualization of planets and spacecraft
+- Dull and outdated style of teaching
+- This inspired us to create a platform that would allow users to explore more about planets and space missions
 ## 💻 What it does
+- Interactive website to explore planets and space missions
+- It includes 3D models that can be viewed with AR
+- Lots of freedom to explore the intricacies of space
+- Chatbot for another layer of interactivity
+
 
 ## 🔨 How we built it
 
