@@ -13,8 +13,7 @@ CLick [here]() to view the demo.
 - Lack of interactive and engaging methods to learn about space exploration
 - No good visualization of planets and spacecraft
 - Dull and outdated style of teaching
-- This inspired us to create a platform that would allow users to explore more about space
-
+- This inspired us to create a platform that would allow users to explore more about planets and space missions
 ## 💻 What it does
 - Interactive website to explore planets and space missions
 - It includes 3D models that can be viewed with AR
