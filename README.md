@@ -1,5 +1,5 @@
 # The Night Sky
-## Harshal Raikwar | ## Nicholas Sidharta | ## Cassidy Lee | ## Amogh Sarangdhar
+## Harshal Raikwar | Nicholas Sidharta | Cassidy Lee | Amogh Sarangdhar
 ### ____________________________________________________________________________________________________________________
 
 ## Live demo
