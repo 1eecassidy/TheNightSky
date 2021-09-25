@@ -1,5 +1,3 @@
-# TheNightSky
-
 # The Night Sky
 
 ## Live demo
