@@ -10,6 +10,10 @@ The site is deployed through Vercel, which you can view from [here]()
 CLick [here]() to view the demo.
 
 ## 💡 Inspiration
+- Lack of interactive and engaging methods to learn about space exploration
+- No good visualization of planets and spacecraft
+- Dull and outdated style of teaching
+- This inspired us to create a platform that would allow users to explore more about space
 
 ## 💻 What it does
 
