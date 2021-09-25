@@ -16,6 +16,11 @@ CLick [here]() to view the demo.
 - This inspired us to create a platform that would allow users to explore more about space
 
 ## 💻 What it does
+- Interactive website to explore planets and space missions
+- It includes 3D models that can be viewed with AR
+- Lots of freedom to explore the intricacies of space
+- Chatbot for another layer of interactivity
+
 
 ## 🔨 How we built it
 
