@@ -81,5 +81,3 @@ From the project folder, run these commands in console (terminal) to install dep
 npm install
 npm start
 ```
-
-## 🖼️ Some glimpse of the site
