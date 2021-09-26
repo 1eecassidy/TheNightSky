@@ -16,7 +16,7 @@ export default function Home() {
             </div>
             <div className="text-white grid place-items-center pt-12">
                 <h1 className="text-4xl ">Goal</h1>
-                <p className="text-2xl text-center mx-48 tracking-widest py-2">Our Goal is to give an ease of access to astronomy knowledge to people all around the world in a way that everyone can enjoy. Aside from entertaining, we also wanted to create an interactive learning experience so that everyone have the option to play around while learning in the same time thus making the learning experience more fun.</p>
+                <p className="text-2xl text-center mx-48 tracking-widest py-2">Our Goal is to give an ease of access to space exploration knowledge to people all around the world in a way that everyone can enjoy. Aside from entertaining, we also wanted to create an interactive learning experience so that everyone have the option to play around while learning in the same time.</p>
             </div>
             <div className="w-full flex items-center justify-center mt-12 mb-4  h-full">
                 <img src={ShuttleImg} alt="Shuttle" className="w-1/4 float-left" />
