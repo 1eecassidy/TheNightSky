@@ -1,4 +1,5 @@
 # The Night Sky
+
 ## Harshal Raikwar | Nicholas Sidharta | Cassidy Lee | Amogh Sarangdhar
 
 ## Live demo
@@ -10,17 +11,18 @@ The site is deployed through Vercel, which you can view from [here](https://the-
 CLick [here]() to view the demo.
 
 ## 💡 Inspiration
+
 - Lack of interactive and engaging methods to learn about space exploration
 - No good visualization of planets and spacecraft
 - Dull and outdated style of teaching
 - This inspired us to create a platform that would allow users to explore more about planets and space missions
 
 ## 💻 What it does
+
 - Interactive website to explore planets and space missions
 - It includes 3D models that can be viewed with AR
 - Lots of freedom to explore the intricacies of space
 - Chatbot for another layer of interactivity
-
 
 ## 🔨 How we built it
 
@@ -31,12 +33,18 @@ CLick [here]() to view the demo.
 
 ## 📶 Domain registered with Domain.com
 
+- explorespacewithus.tech
+
 ## ⛅ Use of Google Cloud
 
 - We built The Night Sky's authentication system with Google Cloud's Firebase. We chose this because we wanted to make an application that was very very secure. We learned how robust & fast Google Cloud services are and seeing that Firebase had a free plan that was great for us student hackers, using Google Cloud was kind of a no-brainer.
 - Additionally, Firebase Authentication provided a backend service, easy-to-use SDKs, and ready-made UI libraries, and the ability to authenticate using passwords, phone numbers, Google, Facebook and Twitter, and the like. Thus, implementation was easy and we are pretty sure we made it incredibly convenient for our users while keeping it secure.
 
 ## 🌌 Best Space App powered by Space Force
+
+## 🎨 Best use of Figma
+
+We have used Figma for building the UI for the web app
 
 ## 🧠 Challenges we ran into
 

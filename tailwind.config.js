@@ -22,7 +22,6 @@ module.exports = {
     fontFamily: {
       'sans': ['Helvetica', 'Arial', 'sans-serif'],
       'carattere': ['Carattere', 'cursive'],
-      'sourceSerifPro': ['Source Serif Pro'],
       "fontVollkorn": ['Vollkorn'],
       'body': ['Open Sans'],
     }

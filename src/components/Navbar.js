@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuAlt3Icon, XIcon } from '@heroicons/react/outline'
 import LogoutIcon from "../assets/logout.png"
+import LogoImg from "../assets/logo.png"
 
 export default function Navbar({ handleLogout }) {
 
@@ -14,7 +15,10 @@ export default function Navbar({ handleLogout }) {
             <div className="px-4  mx-auto max-w-7xl sm:px-6">
               <div className="flex items-center justify-between py-3 border-b-2 md:justify-start md:space-x-8">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
-                  <Link to='/' className="w-auto text-5xl text-white no-underline cursor-pointer font-carattere">Night Sky</Link>
+                  <Link to='/' className="w-auto text-white no-underline flex cursor-pointer">
+                    <img src={LogoImg} alt="logo" className="w-16 inline-flex -p-8" />
+                    <div className=" inline-flex text-lg tracking-wider">Night<br/> Sky</div>
+                    </Link>
                 </div>
                 <div className="-my-2 -mr-2 md:hidden">
                   <Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-gray-900 rounded-md hover:text-gray-500 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

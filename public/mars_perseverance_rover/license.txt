@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mars Perseverance Rover
+* source:	https://sketchfab.com/3d-models/mars-perseverance-rover-28c2d309449848aea6b8b35e25d4acb6
+* author:	Alexei Tiong (https://sketchfab.com/alexeitiong)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mars Perseverance Rover" (https://sketchfab.com/3d-models/mars-perseverance-rover-28c2d309449848aea6b8b35e25d4acb6) by Alexei Tiong (https://sketchfab.com/alexeitiong) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

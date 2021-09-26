@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sketchfab Apollo11
+* source:	https://sketchfab.com/3d-models/sketchfab-apollo11-d77820b37f95468fa1df6e7915bec845
+* author:	s10205317 (https://sketchfab.com/s10205317)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sketchfab Apollo11" (https://sketchfab.com/3d-models/sketchfab-apollo11-d77820b37f95468fa1df6e7915bec845) by s10205317 (https://sketchfab.com/s10205317) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

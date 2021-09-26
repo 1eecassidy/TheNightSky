@@ -12,6 +12,8 @@ import Jupiter from "./components/3DModel/Jupiter"
 import Saturn from "./components/3DModel/Saturn"
 import Uranus from "./components/3DModel/Uranus"
 import Neptune from "./components/3DModel/Neptune"
+import MoonLanding from './components/3DModel/MoonLanding';
+import Mars2020 from "./components/3DModel/Mars2020"
 import Footer from './components/Footer'
 import Chatbot from "./components/Chatbot"
 
@@ -35,6 +37,8 @@ function Main() {
                 <Route path='/saturn' exact component={Saturn} />
                 <Route path='/uranus' exact component={Uranus} />
                 <Route path='/neptune' exact component={Neptune} />
+                <Route path='/moonlanding' exact component={MoonLanding} />
+                <Route path='/mars2020' exact component={Mars2020} />
             </Switch>
 
             <Chatbot />

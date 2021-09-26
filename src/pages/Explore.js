@@ -102,21 +102,21 @@ export default function Explore() {
                 <h1 className="text-4xl pl-28 uppercase">Space Missions:</h1>
                 <div className="flex flex-wrap flex-col-2 justify-around w-full px-16 py-8">
 
-                    <Link to='/mercury'>
+                    <Link to='/moonlanding'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
                                 <img className="pb-8 w-88" alt="" src={MoonLanding} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Moon Landing</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Apollo 11</div>
                         </div>
                     </Link>
 
-                    <Link to='/mercury'>
+                    <Link to='/mars2020'>
                         <div className="cursor-pointer transition duration-500 transform my-8 hover:scale-105 w-72 h-72">
                             <div className="w-60 h-60 bg-exploreCards rounded-3xl grid place-items-center">
                                 <img className="pb-8 w-full" alt="" src={MarsRoverImg} />
                             </div>
-                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Mars Rover</div>
+                            <div className="grid place-content-center mx-1 my-4 p-2 w-60 rounded-2xl text-xl font-semibold bg-exploreCards">Mars 2020</div>
                         </div>
                     </Link>
 
